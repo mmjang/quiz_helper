@@ -22,7 +22,7 @@
     <string name="str_failed_add">出错！请检查方案设置，输出字段不能全部为“空”.</string>
     <string name="str_plan_name_should_not_be_blank">方案名不能为空</string>
     <string name="str_about">About</string>
-    <string name="about_message">本项目在 GPL-3.0 协议下开源。 <a href="https://github.com/mmjang/ankihelper">GitHub 主页</a>\n如果你喜欢这款应用，并且愿意支持我们，可以点击下方按钮打赏。谢谢！</string>
+    <string name="about_message">本项目在 GPL-3.0 协议下开源。 <a href="https://github.com/mmjang/quiz_helper">GitHub 主页</a>\n如果你喜欢这款应用，并且愿意支持我们，可以点击下方按钮打赏。谢谢！</string>
     <string name="confirm_deletion">确认删除？</string>
     <string name="save_plan_error_all_blank">保存失败，输出字段不能全部为空！</string>
     <!--Plan-->

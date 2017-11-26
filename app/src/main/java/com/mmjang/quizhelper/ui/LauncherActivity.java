@@ -296,7 +296,7 @@ public class LauncherActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String url = "https://zhuanlan.zhihu.com/p/25857322";
+                        String url = "https://github.com/mmjang/quiz_helper/blob/master/documentation.md";
                         Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
