@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/support_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/about_message"
+        android:textSize="24dp" />
+
+         <ImageButton
+            android:id="@+id/alipay10"
+             android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+             android:scaleType="centerInside"
+            android:background="@drawable/alipay10"
+             android:elevation="10dp"
+            />
+         <ImageButton
+            android:id="@+id/alipay20"
+             android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+             android:scaleType="centerInside"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/alipay20"
+             android:elevation="10dp"
+            />
+          <ImageButton
+            android:id="@+id/alipayany"
+             android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+             android:scaleType="centerInside"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/alipayany"
+              android:elevation="10dp"
+            />
+
+
+
+</LinearLayout>
