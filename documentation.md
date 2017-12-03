@@ -8,9 +8,9 @@ Quizlet 是一款卡片记忆类应用，在网页、安卓、iOS 都有客户�
 
 传统卡片翻转回忆模式：
 
-<img src='/pics/quiz1.gif'/>
+<img src='/pics/quiz1.gif' style="width: 60%" />
 
 填空模式：
 
-<img src='/pic/quiz2.gif'/>
+<img src='/pics/quiz2.gif' style="width:60%"/>
 
