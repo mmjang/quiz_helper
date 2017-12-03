@@ -71,17 +71,8 @@ public class VocabCom implements IDictionary {
                 HashMap<String, String> eleMap = new HashMap<>();
                 eleMap.put(EXP_ELE[0], headWord);
                 eleMap.put(EXP_ELE[1], getMp3Url(mp3Id));
-                eleMap.put(EXP_ELE[2], defShort + defLong);
-                definitionList.add(new Definition(eleMap, defShort + defLong));
-            }
-
-            for(Element def : doc.select("h3.definition")){
-                HashMap<String, String> eleMap = new HashMap<>();
-                String defText = getDefHtml(def);
-                eleMap.put(EXP_ELE[0], headWord);
-                eleMap.put(EXP_ELE[1], getMp3Url(mp3Id));
-                eleMap.put(EXP_ELE[2], defText);
-                definitionList.add(new Definition(eleMap, defText));
+                eleMap.put(EXP_ELE[2], defShort.replaceAll("<p .+?>","").replaceAll("</p>",""));
+                definitionList.add(new Definition(eleMap, defShort));
             }
 
             return definitionList;

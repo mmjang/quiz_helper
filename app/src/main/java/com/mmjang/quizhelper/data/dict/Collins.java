@@ -34,6 +34,7 @@ public class Collins extends SQLiteAssetHelper implements IDictionary {
     private static final String FIELD_EXT = "ext";
     private static final String FIELD_DEF_EN = "def_en";
     private static final String FIELD_DEF_CN = "def_cn";
+    private VocabCom mVocabCom;
 
     private static final String DICT_NAME = "柯林斯英汉双解";
 
@@ -45,6 +46,7 @@ public class Collins extends SQLiteAssetHelper implements IDictionary {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         db = getReadableDatabase();
         mContext = context;
+        mVocabCom = new VocabCom(mContext);
     }
 
     private static final String[] EXP_ELE_LIST = new String[]{
@@ -94,6 +96,20 @@ public class Collins extends SQLiteAssetHelper implements IDictionary {
             }
         }
 
+        List<Definition> vocabResult = mVocabCom.wordLookup(key);
+        if(vocabResult.size() > 0){
+            String word = vocabResult.get(0).getExportElement("单词");
+            String def = vocabResult.get(0).getExportElement("释义");
+            HashMap<String, String> eleMap = new HashMap<>();
+            eleMap.put(EXP_ELE_LIST[0], word);
+            eleMap.put(EXP_ELE_LIST[1], "");
+            eleMap.put(EXP_ELE_LIST[2], def);
+            eleMap.put(EXP_ELE_LIST[3], "");
+            eleMap.put(EXP_ELE_LIST[4],"");
+            eleMap.put(EXP_ELE_LIST[5],"");
+            Definition dd = new Definition(eleMap, vocabResult.get(0).getDisplayHtml());
+            re.add(0, dd);
+        }
         // db.close();
         return re;
     }

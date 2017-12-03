@@ -150,6 +150,7 @@ public class PopupActivity extends Activity implements BigBangLayoutWrapper.Acti
         assignViews();
         initBigBangLayout();
         loadData(); //dictionaryList;
+        setActAdapter(currentDicitonary);
         setEventListener();
         handleIntent();
         if (settings.getMoniteClipboardQ()) {
@@ -429,7 +430,7 @@ public class PopupActivity extends Activity implements BigBangLayoutWrapper.Acti
                                 .replaceAll("<i>","")
                                 .replaceAll("</i>","");
                         String blankedSetence = StringUtil.boldToBlank(getBoldSentence(bigBangLayout.getLines()));
-                        final String defString = blankedSetence + "\n" + blankedDef;
+                        final String defString = blankedSetence + "\n\n(" + blankedDef + ")";
                         Log.d("btn add", defString);
                         final String term = act.getText().toString();
                         progressDialog.show();
