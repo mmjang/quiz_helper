@@ -68,9 +68,9 @@ Quizlet 网站上有很多别人分享的学习集，但是如果想要添加自
 
 ![study](/pics/study2.png)
 
-![study](/pics/study3.gif)
+![study](/pics/study3.png)
 
-![study](/pics/study4.gif)
+![study](/pics/study4.png)
 
 
 
