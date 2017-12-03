@@ -34,11 +34,43 @@ Quizlet 网站上有很多别人分享的学习集，但是如果想要添加自
 
 ### 2. 安装 Quizy
 
-目前 Quizy 只有安卓版本，可以在[这里]()。 通过 Quizy 添加的卡片在各平台 Quizlet 应用都可学习。
+目前 Quizy 只有安卓版本，可以在[这里](https://www.coolapk.com/apk/169810)。 通过 Quizy 添加的卡片在各平台 Quizlet 应用都可学习。
 
 ### 3. 在 Quizy 中登录 Quizlet 账号
 
 <img src="/pics/login1.png" alt="screenshot" title="screenshot"  height="486" />&nbsp;
 <img src="/pics/login2.png" alt="screenshot" title="screenshot" height="486" />&nbsp;
 <img src="/pics/login3.png" alt="screenshot" title="screenshot" height="486" />
+
+### 4. 添加卡片
+
+登录完成后，有多种方式可添加单词卡片。
+
+通过复制（主界面打开剪切板划词开关）：
+
+![复制](/pics/copy.gif)
+
+通过系统分享：
+
+![分享](/pics/share.gif)
+
+通过长按菜单（需要安卓6.0以上）
+
+![菜单](/pics/popup.gif)
+
+弹出的释义框中有多个释义可供选择，其中第一项释义是来自 vocabulary.com 的英英解释，想通过英英解释猜测词义的同学可添加此项。随后的释义来自柯林斯双解词典。
+
+### 5. Quizlet 复习
+
+添加卡片后，在 Quizlet 各个平台即可复习。
+
+![study](/pics/study1.png)
+
+![study](/pics/study2.png)
+
+![study](/pics/study3.gif)
+
+![study](/pics/study4.gif)
+
+
 
